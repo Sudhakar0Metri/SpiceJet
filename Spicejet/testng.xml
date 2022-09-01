@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="com.myntra_man.testcases.KidsCategoryUrl"/>
+      <class name="com.myntra_man.testcases.HomeandLivingCategoryUrl"/>
+      <class name="com.myntra_man.testcases.WomenCategoryUrl"/>
+          <class name="com.myntra_man.testcases.MenCategoryUrl"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
